@@ -1,6 +1,13 @@
 ﻿<Router AppAssembly="typeof(Program).Assembly">
     <Found Context="routeData">
+        <!-- Основная страница с макетом -->
         <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="routeData" Selector="h1" />
     </Found>
+    <NotFound>
+        <!-- Если маршрут не найден -->
+        <LayoutView Layout="typeof(Layout.MainLayout)">
+            <p>Страница не найдена.</p>
+        </LayoutView>
+    </NotFound>
 </Router>

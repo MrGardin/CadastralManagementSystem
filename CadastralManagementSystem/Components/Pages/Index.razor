@@ -1,0 +1,12 @@
+﻿@page "/"
+
+<h3>Кадастровое управление</h3>
+<button @onclick="NavigateToGuest">Войти как гость</button>
+<button @onclick="NavigateToAdmin">Войти как администратор</button>
+
+@code {
+    [Inject] NavigationManager Navigation { get; set; }
+
+    private void NavigateToGuest() => Navigation.NavigateTo("/guest");
+    private void NavigateToAdmin() => Navigation.NavigateTo("/admin");
+}

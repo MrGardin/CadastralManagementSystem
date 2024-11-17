@@ -1,0 +1,46 @@
+﻿@page "/admin"
+<h3>Добавление объекта</h3>
+@inject HttpClient Http
+<input @bind="newProperty.Address" placeholder="Адрес" />
+<input @bind="newProperty.CadastralNumber" placeholder="Кадастровый номер" />
+<input @bind="newProperty.Description" placeholder="Описание" />
+<input @bind="newProperty.Area" type="number" placeholder="Площадь" />
+<input @bind="newProperty.Owner" placeholder="Владелец" />
+<button @onclick="AddProperty">Добавить</button>
+
+<h3>Предложения</h3>
+<ul>
+    @foreach (var proposal in proposals)
+    {
+        <li>
+            @proposal.Description
+            <button @onclick="() => ApproveProposal(proposal.Id)">Принять</button>
+            <button @onclick="() => DeleteProposal(proposal.Id)">Отклонить</button>
+        </li>
+    }
+</ul>
+
+@code {
+    private Property newProperty = new();
+    private List<Proposal> proposals = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        proposals = await Http.GetFromJsonAsync<List<Proposal>>("api/proposals");
+    }
+
+    private async Task AddProperty()
+    {
+        await Http.PostAsJsonAsync("api/properties", newProperty);
+    }
+
+    private async Task ApproveProposal(int id)
+    {
+        await Http.PostAsync($"api/proposals/approve/{id}", null);
+    }
+
+    private async Task DeleteProposal(int id)
+    {
+        await Http.DeleteAsync($"api/proposals/{id}");
+    }
+}

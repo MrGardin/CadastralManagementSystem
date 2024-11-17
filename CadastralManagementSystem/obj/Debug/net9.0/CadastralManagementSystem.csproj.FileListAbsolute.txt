@@ -201,3 +201,4 @@ C:\Users\Encast\Desktop\Kurs\CadastralManagement\CadastralManagementSystem\Cadas
 C:\Users\Encast\Desktop\Kurs\CadastralManagement\CadastralManagementSystem\CadastralManagementSystem\obj\Debug\net9.0\CadastralManagementSystem.pdb
 C:\Users\Encast\Desktop\Kurs\CadastralManagement\CadastralManagementSystem\CadastralManagementSystem\obj\Debug\net9.0\CadastralManagementSystem.genruntimeconfig.cache
 C:\Users\Encast\Desktop\Kurs\CadastralManagement\CadastralManagementSystem\CadastralManagementSystem\obj\Debug\net9.0\ref\CadastralManagementSystem.dll
+C:\Users\Encast\Desktop\Kurs\CadastralManagement\CadastralManagementSystem\CadastralManagementSystem\obj\Debug\net9.0\CadastralManagementSystem.sourcelink.json
