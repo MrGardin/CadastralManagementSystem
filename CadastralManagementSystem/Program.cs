@@ -1,4 +1,4 @@
-using CadastralManagementSystem.Components;
+﻿using CadastralManagementSystem.Components;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +8,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 // Add services to the container.
+// Добавление изменений для другой ветки....
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
