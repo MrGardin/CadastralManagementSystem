@@ -54,6 +54,4 @@ using (var scope = app.Services.CreateScope())
     UsersInitializer.Initialize(roleManager, userManager);
 }
 
-/* Запуск */
-
 app.Run();

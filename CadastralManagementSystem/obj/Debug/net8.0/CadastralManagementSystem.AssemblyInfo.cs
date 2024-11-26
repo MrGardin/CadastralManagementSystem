@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastralManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a10c2ca0f86e69f3da36db26d6bb454ed55e9332")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce69e14bdc9f062deb253484c7baa695350cb4f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastralManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastralManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
