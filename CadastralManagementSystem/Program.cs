@@ -1,36 +1,59 @@
-﻿using CadastralManagementSystem.Components;
+﻿using CadastralManagement.Controllers;
+using CadastralManagement.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddHttpClient();
+/* Регистрация и настройка сервисов */
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<CadastralManagementContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultSqliteConnection")) // берём настройки из appsettings.json
+);
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>() // настройка типов пользователей и ролей
+    .AddEntityFrameworkStores<CadastralManagementContext>() // храним пользователей в базе данных
+    .AddErrorDescriber<UserValidationErrorDescriber>(); // настройка сообщений об ошибках валидации из Identity
 
-// Add services to the container.
-// Добавление изменений для другой ветки....
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+builder.Services.AddControllersWithViews()
+    .AddMvcOptions(options => // настройка базовых сообщений об ошибках валидации
+    {
+        options.ModelBindingMessageProvider.SetAttemptedValueIsInvalidAccessor((x, y) => $"Некорректное значение поля\"{y}\".");
+        options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(x => $"Поле пустое");
+    });
+
+/* Настройка веб-приложения */
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseExceptionHandler("/Ho/Error");
 }
 
-app.UseHttpsRedirection();
+app.UseStaticFiles(); // по умолчанию статические файлы обслуживаются только в корневом веб-каталоге wwwroot
 
+app.UseAuthentication();
+app.UseAuthorization();
 
-app.UseAntiforgery();
+app.MapControllerRoute( // стандартная маршрутизация через имена контроллеров и действия
+    name: "default",
+    pattern: "{controller=CadastralObjects}/{action=Index}/{id?}"
+);
 
-app.MapStaticAssets();
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+/* Инициализация начальных ролей и пользователей */
+// https://metanit.com/sharp/aspnet5/16.12.php
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
+
+    UsersInitializer.Initialize(roleManager, userManager);
+}
+
+/* Запуск */
 
 app.Run();
