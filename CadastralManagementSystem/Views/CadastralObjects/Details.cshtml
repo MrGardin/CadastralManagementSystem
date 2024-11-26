@@ -1,0 +1,13 @@
+﻿@using CadastralManagement.Data;
+
+@model CadastralManagement.Models.CadastralObject
+
+@{
+    ViewData["Title"] = "Подробнее о кадастровом объекте";
+}
+
+<partial name="_DetailsPartial" model="@Model" view-data="ViewData" />
+
+@if (User.IsInRole(UsersInitializer.ADMIN_ROLE)) {
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-success col-sm-2">Редактировать</a>
+}

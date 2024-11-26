@@ -1,0 +1,23 @@
+﻿@model CadastralManagement.Models.Account.RegisterModel
+
+@{
+    ViewData["Title"] = "Регистрация нового пользователя";
+}
+
+<form asp-action="Register">
+    <table class="table">
+        <tbody>
+            <partial name="_AccountPartial" model="@Model" view-data="ViewData" />
+
+            <tr>
+                <th class="col-sm-2 align-middle">@Html.LabelFor(model => model.PasswordConfirm)</th>
+                <td class="col-sm-4">@Html.EditorFor(model => model.PasswordConfirm, new { htmlAttributes = new { @class = "form-control" } })</td>
+                <td class="text-danger align-middle">@Html.ValidationMessageFor(model => model.PasswordConfirm)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a asp-action="Login" class="btn btn-secondary col-sm-2 me-1">Назад</a>
+
+    <input type="submit" value="Зарегистрироваться" class="btn btn-success col-sm-2" />
+</form>

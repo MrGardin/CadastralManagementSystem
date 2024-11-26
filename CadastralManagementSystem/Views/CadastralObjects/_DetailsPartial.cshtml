@@ -1,0 +1,28 @@
+﻿@model CadastralManagement.Models.CadastralObject
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th class="col-sm-2">@Html.DisplayNameFor(model => model.Number)</th>
+            <td>@Html.DisplayFor(model => model.Number)</td>
+        </tr>
+        <tr>
+            <th class="col-sm-2">@Html.DisplayNameFor(model => model.Address)</th>
+            <td>@Html.DisplayFor(model => model.Address)</td>
+        </tr>
+        <tr>
+            <th class="col-sm-2">@Html.DisplayNameFor(model => model.Area)</th>
+            <td>@Html.DisplayFor(model => model.Area)</td>
+        </tr>
+        <tr>
+            <th class="col-sm-2">@Html.DisplayNameFor(model => model.OwnerName)</th>
+            <td>@Html.DisplayFor(model => model.OwnerName)</td>
+        </tr>
+        <tr>
+            <th class="col-sm-2">@Html.DisplayNameFor(model => model.ShortDescription)</th>
+            <td>@Html.DisplayFor(model => model.ShortDescription)</td>
+        </tr>
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-primary col-sm-2 me-1">Вернуться к кадастру</a>

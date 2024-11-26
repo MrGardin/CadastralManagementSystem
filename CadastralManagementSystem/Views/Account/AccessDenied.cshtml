@@ -1,0 +1,22 @@
+﻿@model CadastralManagement.Models.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Доступ запрещён";
+}
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th class="col-sm-2 align-middle text-danger h3">Внимание!</th>
+            <td class="align-bottom">
+                Для совершения данной операции вы должны обладать ролью <b>Администратора</b>.
+            </td>
+        </tr>
+        <tr>
+            <th class="col-sm-2 align-middle">Продолжить работу</th>
+            <td class="align-middle">
+                <a asp-action="Index" asp-controller="CadastralObjects" class="btn btn-secondary col-sm-2">На главную</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

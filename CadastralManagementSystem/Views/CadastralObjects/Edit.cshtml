@@ -1,0 +1,11 @@
+﻿@model CadastralManagement.Models.CadastralObject
+
+@{
+    ViewData["Title"] = "Редактирование объекта недвижимости";
+}
+
+<form asp-action="Edit">
+    <partial name="_CreatePartial" model="@Model" view-data="ViewData" />
+
+    <input type="submit" value="Сохранить" class="btn btn-success col-sm-2" />
+</form>

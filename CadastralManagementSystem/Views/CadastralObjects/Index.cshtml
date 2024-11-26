@@ -1,0 +1,51 @@
+﻿@using CadastralManagement.Data;
+
+@model IEnumerable<CadastralManagement.Models.CadastralObject>
+
+@{
+    ViewData["Title"] = "Кадастровое управление";
+}
+
+<form asp-action="Index">
+    <table class="table">
+        <tbody>
+            <tr>
+                <th class="col-sm-2 align-middle">Вы вошли как</th>
+                <td class="align-middle">
+                    <span class="text-primary h5">
+                        @User.Identity?.Name
+                    </span>
+                    @if (User.IsInRole(UsersInitializer.ADMIN_ROLE)) {
+                        <span class="text-secondary h5">(Администратор)</span>
+                    }
+                    else {
+                        <span class="text-secondary h5">(Клиент)</span>
+                    }
+                </td>
+                <td class="col-sm-1"/>
+                <td class="col-sm-2">
+                    <a asp-action="Logout" asp-controller="Account" class="btn btn-danger d-block">Выйти из аккаунта</a>
+                </td>
+            </tr>
+            <tr>
+                <th class="align-middle">@Html.DisplayNameFor(model => model.Address)</th>
+                <td>
+                    <input type="text" name="filter" class="form-control searchinput" />
+                </td>
+                <td class="align-middle">
+                    <input type="submit" value="Найти" class="btn btn-primary" style="width: 100%;" />
+                </td>
+                <td class="align-middle">
+                    @if (User.IsInRole(UsersInitializer.ADMIN_ROLE))
+                    {
+                        <a asp-action="Create" class="btn btn-success d-block">Добавить объект</a>
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+<h3 class="mt-5">Кадастр недвижимости</h3>
+
+<partial name="_CadastralObjectsPartial" model="@Model" />

@@ -1,0 +1,16 @@
+﻿@model CadastralManagement.Models.Account.AccountModel
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<tr>
+    <th class="col-sm-2 align-middle">@Html.LabelFor(model => model.Name)</th>
+    <td class="col-sm-4">@Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })</td>
+    <td class="text-danger align-middle">@Html.ValidationMessageFor(model => model.Name)</td>
+</tr>
+<tr>
+    <th class="col-sm-2 align-middle">@Html.LabelFor(model => model.Password)</th>
+    <td class="col-sm-4">@Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })</td>
+    <td class="text-danger align-middle">@Html.ValidationMessageFor(model => model.Password)</td>
+</tr>
+
+<partial name="_ValidationScriptsPartial" />

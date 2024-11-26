@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Вы действительно хотите выйти из системы?";
+}
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th class="col-sm-2 align-middle">Нет, я хочу вернуться</th>
+            <td>
+                <a asp-action="Index" asp-controller="CadastralObjects" class="btn btn-primary col-sm-2">Назад</a>
+            </td>
+        </tr>
+        <tr>
+            <th class="col-sm-2 align-middle">Да, я покидаю аккаунт</th>
+            <td>
+                <form asp-action="Logout">
+                    <input type="submit" value="Выйти" class="btn btn-danger col-sm-2" />
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>

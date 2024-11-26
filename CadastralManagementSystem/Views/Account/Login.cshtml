@@ -1,0 +1,23 @@
+﻿@model CadastralManagement.Models.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Вход через существующий аккаунт";
+}
+
+<form asp-action="Login" asp-route-returnUrl="@ViewData["returnUrl"]">
+    <table class="table">
+        <tbody>
+            <partial name="_AccountPartial" model="@Model" view-data="ViewData" />
+
+            <tr>
+                <th class="col-sm-2 align-middle">@Html.LabelFor(model => model.RememberMe)</th>
+                <td class="col-sm-4">@Html.CheckBoxFor(model => model.RememberMe)</td>
+                <td class="text-danger align-middle">@Html.ValidationMessageFor(model => model.RememberMe)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <input type="submit" value="Войти" class="btn btn-primary col-sm-2  me-1" />
+
+    <a asp-action="Register" class="btn btn-success col-sm-2">Зарегистрироваться</a>
+</form>

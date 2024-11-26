@@ -3,68 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\models\\cadastralobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\models\\cadastralobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\controllers\\cadastralobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\controllers\\cadastralobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\data\\cadastralmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\data\\cadastralmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\data\\usersinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\data\\usersinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\views\\account\\_accountpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\views\\account\\_accountpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\cadastralmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\cadastralmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\pages\\adminpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\AdminPage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Pages\\AdminPage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\Error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Pages\\Error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Layout\\NavMenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Layout\\NavMenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\GuestPage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Pages\\GuestPage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\pages\\guestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\pages\\guestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\Index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Pages\\Index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\Routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\_Imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\_Imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\controllers\\proposalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\controllers\\proposalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|c:\\users\\encast\\desktop\\kurs\\cadastralmanagement\\cadastralmanagementsystem\\cadastralmanagementsystem\\migrations\\20241117131150_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82DE88E-D485-454A-A194-C2A74D45DA3E}|CadastralManagementSystem\\CadastralManagementSystem.csproj|solutionrelative:cadastralmanagementsystem\\migrations\\20241117131150_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CadastralManagementSystem\\Components\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +114,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241126170219_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Migrations\\20241126170219_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:02:19.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:19:50.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastralObjects.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Models\\CadastralObjects.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Models\\CadastralObjects.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Models\\CadastralObjects.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Models\\CadastralObjects.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:19:04.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Program.cs",
               "RelativeToolTip": "CadastralManagementSystem\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T13:07:52.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:52:04.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:59:56.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\appsettings.json",
@@ -104,33 +209,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CadastralManagementSystem\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "CadastralManagementSystem\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:07:18.445Z",
+              "WhenOpened": "2024-11-17T18:03:44.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CadastralManagementSystem",
+              "DocumentIndex": 7,
+              "Title": "CadastralObjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\CadastralObjectsController.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Controllers\\CadastralObjectsController.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\CadastralObjectsController.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Controllers\\CadastralObjectsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:04:29.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CadastralManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\CadastralManagementContext.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Data\\CadastralManagementContext.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\CadastralManagementContext.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Data\\CadastralManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:53:48.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\UsersInitializer.cs",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Data\\UsersInitializer.cs",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Data\\UsersInitializer.cs",
+              "RelativeToolTip": "CadastralManagementSystem\\Data\\UsersInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:53:01.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:50:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:50:36.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:50:14.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:49:55.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_AccountPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\_AccountPartial.cshtml",
+              "RelativeDocumentMoniker": "CadastralManagementSystem\\Views\\Account\\_AccountPartial.cshtml",
+              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Views\\Account\\_AccountPartial.cshtml",
+              "RelativeToolTip": "CadastralManagementSystem\\Views\\Account\\_AccountPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:48:52.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CadastralManagementSystem.csproj",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\CadastralManagementSystem.csproj",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\CadastralManagementSystem.csproj",
               "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\CadastralManagementSystem.csproj",
               "RelativeToolTip": "CadastralManagementSystem\\CadastralManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-26T15:05:57.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T15:05:57.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "AdminPage.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\AdminPage.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Pages\\AdminPage.razor",
@@ -138,12 +346,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Pages\\AdminPage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:06:09.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:28:46.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Pages\\Error.razor",
@@ -151,11 +358,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:07:25.825Z"
+              "WhenOpened": "2024-11-26T16:28:46.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Layout\\NavMenu.razor",
@@ -163,11 +370,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:09:36.584Z"
+              "WhenOpened": "2024-11-26T16:28:47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Layout\\MainLayout.razor",
@@ -175,11 +382,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:15:13.725Z"
+              "WhenOpened": "2024-11-26T16:28:47.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "GuestPage.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\GuestPage.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Pages\\GuestPage.razor",
@@ -187,11 +394,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Pages\\GuestPage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:05:38.084Z"
+              "WhenOpened": "2024-11-26T16:28:47.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Pages\\Index.razor",
@@ -199,23 +406,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T18:05:13.942Z"
+              "WhenOpened": "2024-11-26T16:28:47.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PropertiesController.cs",
-              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\PropertiesController.cs",
-              "RelativeDocumentMoniker": "CadastralManagementSystem\\Controllers\\PropertiesController.cs",
-              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\PropertiesController.cs",
-              "RelativeToolTip": "CadastralManagementSystem\\Controllers\\PropertiesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwCAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:03:44.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\Routes.razor",
@@ -223,11 +418,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:42:27.878Z"
+              "WhenOpened": "2024-11-26T16:28:47.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\_Imports.razor",
@@ -235,11 +430,11 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T17:42:24.952Z"
+              "WhenOpened": "2024-11-26T16:28:47.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Components\\App.razor",
               "RelativeDocumentMoniker": "CadastralManagementSystem\\Components\\App.razor",
@@ -247,31 +442,7 @@
               "RelativeToolTip": "CadastralManagementSystem\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T13:10:21.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProposalsController.cs",
-              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\ProposalsController.cs",
-              "RelativeDocumentMoniker": "CadastralManagementSystem\\Controllers\\ProposalsController.cs",
-              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Controllers\\ProposalsController.cs",
-              "RelativeToolTip": "CadastralManagementSystem\\Controllers\\ProposalsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:04:29.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241117131150_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Migrations\\20241117131150_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CadastralManagementSystem\\Migrations\\20241117131150_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Encast\\Desktop\\Kurs\\CadastralManagement\\CadastralManagementSystem\\CadastralManagementSystem\\Migrations\\20241117131150_InitialCreate.cs",
-              "RelativeToolTip": "CadastralManagementSystem\\Migrations\\20241117131150_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:11:50.598Z"
+              "WhenOpened": "2024-11-26T16:28:47.015Z"
             }
           ]
         }

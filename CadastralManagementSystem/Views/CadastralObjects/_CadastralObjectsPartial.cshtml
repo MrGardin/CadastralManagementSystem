@@ -1,0 +1,41 @@
+﻿@using CadastralManagement.Data;
+
+@model IEnumerable<CadastralManagement.Models.CadastralObject>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th class="col-sm-2 align-middle">@Html.DisplayNameFor(model => model.Number)</th>
+            <th class="align-middle">@Html.DisplayNameFor(model => model.Address)</th>
+            <th class="col-sm-1 align-middle">Действия</th>
+            <th class="col-sm-1" />
+            <th class="col-sm-1" />
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr onclick="location.href = '@Url.Action("Details", "CadastralObjects", new { id = item.Id })'">
+                @* Переход на страницу объекта по клику на строку *@
+                <td class="align-middle">@Html.DisplayFor(model => item.Number)</td>
+                <td class="align-middle">@Html.DisplayFor(model => item.Address)</td>
+                <td class="align-middle">
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm d-block">Подробнее</a>
+                </td>
+                <td class="align-middle">
+                    @if (User.IsInRole(UsersInitializer.ADMIN_ROLE)) {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm d-block">Изменить</a>
+                    }
+                    
+                </td>
+                <td class="align-middle">
+                    @if (User.IsInRole(UsersInitializer.ADMIN_ROLE))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm d-block">Удалить</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

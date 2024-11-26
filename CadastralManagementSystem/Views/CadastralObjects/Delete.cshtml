@@ -1,0 +1,12 @@
+﻿@model CadastralManagement.Models.CadastralObject
+
+@{
+    ViewData["Title"] = "Вы действительно хотите удалить этот объект?";
+}
+
+<partial name="_DetailsPartial" model="@Model" view-data="ViewData" />
+
+<form asp-action="Delete" style="display:inline;">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Удалить" class="btn btn-danger col-sm-2" />
+</form>
